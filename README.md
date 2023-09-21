@@ -61,7 +61,7 @@ git clone https://github.com/As1imwe-Mark/Vet_Clinic.git
 Go to the project directory.
 
 ```bash
-  cd vet-clinic-database
+  cd vet-clinic
 ```
 
 In the project directory, run/ Excute each query in the following order:
