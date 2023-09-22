@@ -32,4 +32,8 @@ ALTER TABLE animals DROP COLUMN species;
 
 ALTER TABLE animals ADD COLUMN species_id INT REFERENCES species(id);
 
+-- Add the 'owner_id' column as a foreign key
+
+ALTER TABLE animals ADD COLUMN owner_id INT REFERENCES owners(id);
+
 
